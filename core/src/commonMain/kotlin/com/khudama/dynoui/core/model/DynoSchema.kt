@@ -15,7 +15,13 @@ data class DynoSchema(
 data class DynoTheme(
     val colors: Map<String, String>? = null,
     val typography: Map<String, DynoTypography>? = null,
-    val classes: Map<String, JsonObject>? = null
+    val classes: Map<String, DynoThemeClass>? = null
+)
+
+@Serializable
+data class DynoThemeClass(
+    val properties: JsonObject? = null,
+    val modifiers: List<DynoModifier>? = null
 )
 
 @Serializable

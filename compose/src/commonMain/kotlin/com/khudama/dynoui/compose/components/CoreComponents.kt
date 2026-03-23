@@ -77,4 +77,29 @@ fun registerCoreComponents() {
         val width = node.properties?.get("width")?.jsonPrimitive?.intOrNull ?: 0
         Spacer(modifier = Modifier.height(height.dp).width(width.dp).applyDynoModifiers(node.modifiers))
     }
+    
+    DynoRenderer.registry.register("lazy_column") { node ->
+        val listKey = node.properties?.get("listKey")?.jsonPrimitive?.content ?: ""
+        val rawList = com.khudama.dynoui.compose.LocalDynoListState.current[listKey] ?: emptyList()
+        val arrStr = node.properties?.get("verticalArrangement")?.jsonPrimitive?.content
+        
+        val arrangement = when(arrStr) { 
+            "space_between" -> Arrangement.SpaceBetween
+            else -> Arrangement.Top 
+        }
+
+        androidx.compose.foundation.lazy.LazyColumn(
+            modifier = Modifier.applyDynoModifiers(node.modifiers),
+            verticalArrangement = arrangement
+        ) {
+            items(rawList.size) { index ->
+                val itemData = rawList[index]
+                androidx.compose.runtime.CompositionLocalProvider(
+                    com.khudama.dynoui.compose.LocalDynoItemState provides itemData
+                ) {
+                    node.children?.forEach { DynoRenderer.Render(it) }
+                }
+            }
+        }
+    }
 }
