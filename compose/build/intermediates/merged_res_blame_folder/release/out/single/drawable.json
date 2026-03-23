@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.khudama.dynoui.compose-merged_res-38:/drawable/notification_bg_low.xml",
+        "source": "com.khudama.dynoui.compose-core-1.12.0-25:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.khudama.dynoui.compose-merged_res-38:/drawable/notification_icon_background.xml",
+        "source": "com.khudama.dynoui.compose-core-1.12.0-25:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.khudama.dynoui.compose-merged_res-38:/drawable/notification_bg.xml",
+        "source": "com.khudama.dynoui.compose-core-1.12.0-25:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.khudama.dynoui.compose-merged_res-38:/drawable/notification_tile_bg.xml",
+        "source": "com.khudama.dynoui.compose-core-1.12.0-25:/drawable/notification_tile_bg.xml"
+    }
+]

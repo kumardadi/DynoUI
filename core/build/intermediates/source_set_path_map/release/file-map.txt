@@ -1,0 +1,8 @@
+com.khudama.dynoui.core-pngs-0 /Volumes/X10_Pro/AndroidStudioProjects/DynoAndroid/core/build/generated/res/pngs/release
+com.khudama.dynoui.core-resValues-1 /Volumes/X10_Pro/AndroidStudioProjects/DynoAndroid/core/build/generated/res/resValues/release
+com.khudama.dynoui.core-mergeReleaseResources-2 /Volumes/X10_Pro/AndroidStudioProjects/DynoAndroid/core/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.khudama.dynoui.core-mergeReleaseResources-3 /Volumes/X10_Pro/AndroidStudioProjects/DynoAndroid/core/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.khudama.dynoui.core-merged_res-4 /Volumes/X10_Pro/AndroidStudioProjects/DynoAndroid/core/build/intermediates/merged_res/release
+com.khudama.dynoui.core-androidMain-5 /Volumes/X10_Pro/AndroidStudioProjects/DynoAndroid/core/src/androidMain/res
+com.khudama.dynoui.core-main-6 /Volumes/X10_Pro/AndroidStudioProjects/DynoAndroid/core/src/main/res
+com.khudama.dynoui.core-release-7 /Volumes/X10_Pro/AndroidStudioProjects/DynoAndroid/core/src/release/res

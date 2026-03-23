@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.khudama.dynoui.core.DynoParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-03-21T14:52:16" hostname="Dadis-MacBook-Air.local" time="0.028">
+  <properties/>
+  <testcase name="testParseAndInterpolate" classname="com.khudama.dynoui.core.DynoParserTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
